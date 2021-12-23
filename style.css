@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  text-align: center;
+  margin: 10px;
+  width: 50%;
+}
+
+.btn {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  border-radius: 50%;
+  margin-top: 30px;
+  cursor: pointer;
+  transition: all 100ms;
+}
+.btn:active {
+  background: #982626;
+  -webkit-box-shadow: inset 10px 10px 10px #4d0000;
+     -moz-box-shadow: inset 10px 10px 10px #4d0000;
+          box-shadow: inset 10px 10px 10px #4d0000;
+   outline: none;
+}
+
+#code {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url('./confetti\ giph.gif');
+  display: none;
+}
+
+#apex {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url('./fireworks\ gif.gif');
+  background-size: cover;
+  display: none;
+}
